@@ -21,11 +21,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22   # Updated (avoids 2025 deprecation warning)
-          cache: 'npm'       # Works even without lock file
+          node-version: 22        # Updated (no more deprecation warning)
 
       - name: Install dependencies
-        run: npm install     # Changed from "npm ci" → works without lock file
+        run: npm install
 
       - name: Build
         run: npm run build
