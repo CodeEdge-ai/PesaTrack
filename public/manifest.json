@@ -1,0 +1,17 @@
+{
+  "name": "PesaTrack",
+  "short_name": "PesaTrack",
+  "description": "Personal Finance Tracker for Kenya",
+  "start_url": "/PesaTrack/",
+  "display": "standalone",
+  "background_color": "#0F1A14",
+  "theme_color": "#0A5C36",
+  "icons": [
+    {
+      "src": "/PesaTrack/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
